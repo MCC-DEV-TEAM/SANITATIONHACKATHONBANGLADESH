@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="@android:color/white">
+
+	<ScrollView
+	    android:id="@+id/scrollView1"
+	    android:layout_width="fill_parent"
+	    android:layout_alignParentTop="true"
+	    android:layout_above="@+id/actionBtn"
+	    android:layout_height="match_parent" >
+        
+		<LinearLayout
+		    android:id="@+id/LenearLayout2"
+		    android:layout_width="fill_parent"
+		    android:layout_height="match_parent"
+		    android:orientation="vertical" >
+
+		    <EditText
+		        android:id="@+id/editText1"
+		        android:layout_width="fill_parent"
+		        android:layout_height="50dp"
+		        android:layout_margin="10dp"
+		        android:background="@drawable/edit_text_ics_blue"
+		        android:gravity="bottom"
+		        android:hint="Title"
+		        android:padding="3dp"
+		        android:textSize="15dp" >
+
+		        <requestFocus
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content" />
+		    </EditText>
+
+		    <Spinner
+		        android:id="@+id/spinner1"
+		        android:layout_width="fill_parent"
+		        android:layout_height="50dp"
+		        android:layout_margin="10dp"
+		        android:background="@drawable/edit_text_ics_blue"
+		        android:hint="Category"
+		        android:padding="3dp"
+		        android:prompt="@string/Category"
+		        android:textSize="15dp" />
+
+		    <EditText
+		        android:id="@+id/editText2"
+		        android:layout_width="fill_parent"
+		        android:layout_height="225dp"
+		        android:layout_margin="10dp"
+		        android:layout_weight="1.76"
+		        android:background="@drawable/edit_text_ics_blue"
+		        android:gravity="top"
+		        android:hint="Description"
+		        android:inputType="textMultiLine"
+		        android:padding="3dp"
+		        android:textSize="15dp" />
+		</LinearLayout>
+
+    </ScrollView>
+
+	<LinearLayout
+	    android:id="@+id/actionBtn"
+	    android:layout_width="fill_parent"
+	    android:layout_height="50dp"
+	    android:layout_alignParentBottom="true"
+	    android:background="#414042"
+	    android:padding="4dp"
+	    android:orientation="horizontal" >
+
+		<Button
+		    android:id="@+id/cancelPost"
+		    android:layout_width="0.0dip"
+		    android:layout_height="fill_parent"
+		    android:text="CANCEL"
+		    android:layout_weight="1.0"
+		    
+		    android:textSize="15dp"
+		    android:textStyle="bold"
+		    android:background="#414042"
+		    android:textColor="#FFF"
+		    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+		<Button
+		    android:id="@+id/btnpost"
+		    android:layout_width="0.0dip"
+		    android:layout_height="fill_parent"
+		    android:text="POST"
+		    android:textSize="15dp"
+		    android:textStyle="bold"
+		    android:layout_weight="1.0"
+		    android:background="#414042"
+		    android:textColor="#FFF"
+		    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+	</LinearLayout>
+    
+</RelativeLayout>

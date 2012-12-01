@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#111111"
+    android:minHeight="65dp"
+    android:orientation="vertical"
+    android:padding="5dip" >
+
+  
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rihanna Love the way lie"
+        android:textColor="#BCBEC0"
+        android:textSize="15dip"
+        android:textStyle="bold"
+        android:typeface="sans" />
+
+    <!-- Artist Name -->
+
+
+    <TextView
+        android:id="@+id/detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rihanna Love the way lie"
+        android:textColor="#FFFFFF"
+        android:textSize="15dip"
+        android:singleLine="true"
+        android:textStyle="bold"
+        android:typeface="sans" />
+
+
+
+    <TextView
+        android:id="@+id/reportdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:layout_marginTop="1dip"
+        android:text="Reported: 18-06-2012"
+        android:textColor="#7D7E81"
+        android:textSize="10dip" />
+
+    <!-- Rightend Duration -->
+
+
+    <!-- Rightend Arrow -->
+
+</LinearLayout>

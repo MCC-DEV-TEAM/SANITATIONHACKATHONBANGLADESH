@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, Write3Android!</string>
+    <string name="app_name">UPBook</string>
+    <string name="top">TOP STORIES</string>
+	<string name="strAppTitle">UPBook</string>
+    <string name="strSplashWait">"Loading ... Please Wait ..."</string>
+    <string name="strUser">User Name (Your Mail) :</string>
+    <string name="strPassword">Password :</string>
+    <string name="strRemember">Remember Account Information</string>
+    <string name="strLogin">Login</string>
+    <string name="strRegister">Register</string>
+    <string name="strSkip">Skip</string>
+    <string name="strShow">Show List</string>
+    <string name="strTakePicture">Take Picture</string>
+    <string name="strGallery">Choose From Gallery</string>
+    <string name="strRecordVideo">Record Video</string>
+    <string name="strPostLabel">"Write Something ... "</string>
+    <string name="strPost">Post</string>
+    <string name="strTitle">Post Title:</string>
+    <string name="strCatLabel">Category</string>
+    <string name="strCancel">Cancel</string>
+    <string name="strHorizontal">Horizontal</string>
+    <string name="Category">Category</string>
+    <string name="newuser"><u>New User Registration</u></string>
+
+    
+</resources>

@@ -1,0 +1,31 @@
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:title="Write3Droid v1.0" android:summary="Copyright (C) 2011-2012 MAPP-IT Ltd."
+        android:key="copyright" />
+
+
+	<PreferenceScreen
+		android:id="@+id/info"
+		android:key="info"
+		android:title=""
+		android:summary="">
+
+		
+		
+	<intent android:action="android.intent.action.VIEW" android:data="http://mapp-it.com/" />
+	
+	
+	
+</PreferenceScreen>
+
+	<PreferenceCategory android:title="">
+		<EditTextPreference
+			android:id="@+id/server_url"
+			android:key="server_url"
+			android:defaultValue=""
+			android:title=""
+			android:dialogTitle="" />
+		<ListPreference android:id="@+id/font_size" android:key="font_size" android:title="Font Size" android:dialogTitle="New Font Size" android:defaultValue="21" android:entries="@array/font_size_entries" android:entryValues="@array/font_size_entry_values" />
+		<!-- android:password="true" -->
+	</PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center_vertical"
+        android:paddingLeft="20dp"
+        android:text="About"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:shadowColor="#FF000000"
+        android:shadowDx="1.2"
+        android:shadowDy="1.2"
+        android:shadowRadius="1.2"
+        android:text="Test"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#90414042"
+        android:textSize="14dp" />
+
+    <View
+        android:id="@+id/view1"
+        android:layout_width="200dp"
+        android:layout_height="1dp"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="86dp"
+        android:background="#FF7F00"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/view1"
+        android:paddingLeft="20dp"
+        android:paddingRight="10dp"
+        android:text="Copyright 2012"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#90414042"
+        android:textSize="12dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView3"
+        android:paddingLeft="20dp"
+        android:paddingRight="10dp"
+        android:text="MCC LTD CO"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#90414042"
+        android:textSize="10dp" />
+
+</RelativeLayout>

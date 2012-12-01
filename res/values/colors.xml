@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="CornflowerBlue">#6495ED</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="Grey">#90414042</color>
+    <color name="DarkGrey">#414042</color>
+    <color name="Black">#50000000</color>
+</resources>
